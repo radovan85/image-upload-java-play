@@ -1,0 +1,6 @@
+# Routes
+GET  /api/images   com.radovan.play.controllers.ImageController.getAllImages
+POST  /api/images   com.radovan.play.controllers.ImageController.storeImage(request:Request)
+GET   /api/images/:id   com.radovan.play.controllers.ImageController.getImage(id:Long)
+DELETE   /api/images/:id   com.radovan.play.controllers.ImageController.deleteImage(id:Long)
+PUT   /api/images/:id   com.radovan.play.controllers.ImageController.updateImage(request:Request,id:Long)
