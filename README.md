@@ -37,7 +37,7 @@ Build Tool	sbt
 🔧 How to Run
 Clone the repository
 
-git clone https://github.com/your-username/image-upload-play.git
+git clone https://github.com/radovan85/image-upload-java-play.git
 cd image-upload-play
 
 
